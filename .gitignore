@@ -22,3 +22,6 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 robot_simulator-*.tar
 
+# Dialyzer
+/priv/plts/*.plt
+/priv/plts/*.plt.hash
