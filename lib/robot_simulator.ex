@@ -81,11 +81,11 @@ defmodule RobotSimulator do
 
   ## Examples
 
-  iex> robot = RobotSimulator.create(:east, {3, 2})
-  {:east, {3, 2}}
+  iex> robot = RobotSimulator.create(:west, {3, 2})
+  {:west, {3, 2}}
 
   iex> RobotSimulator.direction(robot)
-  :east
+  :west
   """
   @spec direction(robot :: any) :: atom
   def direction(robot) do
